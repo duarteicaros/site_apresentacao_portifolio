@@ -146,7 +146,7 @@ body {
 
 #portifolio article a{
     margin: 2rem;
-    padding: 3rem;
+    padding: 2.5rem;
     font-size: 1.2rem;
     text-decoration: none;
     margin-top: 5%;
@@ -154,6 +154,19 @@ body {
     color: #ff6b26;
     background-color: #000000;
     border-radius: 7px;
+}
+
+#portifolio article a:hover{
+    margin: 1.5rem;
+    padding: 3rem;
+    font-size: 1.8rem;
+    text-decoration: none;
+    margin-top: 4%;
+    justify-content: center;
+    color: #ffffff;
+    background-color: #000000;
+    border-radius: 7px;
+    transition: 0.5s;
 }
 
 /* contato */
@@ -259,6 +272,7 @@ body {
     color: #ffffff;
     background-color: #000000;
     border-radius: 7px;
+    transition: 0.5s;
 }
 
 /*footer*/
